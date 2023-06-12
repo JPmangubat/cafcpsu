@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    position: fixed;
+      top: 0; left: 0; right: 0;
+      box-shadow: 0 0px 5px rgba(0,0,0.1);
+      padding: 1% 5%;
+  }
+  .nabvar a{
+    font-size: 50px;
+  }
+  .navbar-nav li a{
+    font-size: 20px;
+    margin: 3px 10px;
+  }
+  .navbar-nav li:hover {
+      background-color: #016E51;
+      padding: 5px;
+    }
+    .navbar-nav li a:hover{
+      background: #016E51;
+      color: white;
+    }
+.header_part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #198754;
+    padding: 10px;
+    box-shadow: 0 0px 5px rgba(0,0,0.1);
+ }
+.header_part h1{
+        color: #fff;
+        padding: 10px;
+}
+.header_part img{
+    float: left;
+    height: 70px;
+}
+.hero{
+    display: flex;
+    position: absolute;
+    margin: 30px 100px;
+    box-shadow: 3px 3px 10px rgba(0,0,0.1);
+
+}
+.hero .container h1{
+    font-size: 30px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.hero .container p span{
+    border-radius: 3px;
+}
+
+.hero1{
+    display: flex;
+    position: absolute;
+    margin: 530px 100px;
+    box-shadow: 3px 3px 10px rgba(0,0,0.1);
+}
+.hero1 .container h1{
+    font-size: 28px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.hero1 .container p span{
+    border-radius: 3px;
+}
+.hero2{
+    display: flex;
+    position: absolute;
+    margin: 1050px 100px;
+    box-shadow: 3px 3px 10px rgba(0,0,0.1);
+}
+.hero2 .container h1{
+    font-size: 28px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.hero2 .container p span{
+    border-radius: 3px;
+}
